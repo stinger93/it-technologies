@@ -11,6 +11,29 @@
     --black: #363636;
 }
 
+/*Other*/
+
+.bkg-blue{
+    background: var(--blue);
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+.title.dark{
+    color: var(--black) !important;
+}
+
+.section-container{
+    padding: 150px 0;
+}
+
 /*header*/
 
 header{
@@ -71,4 +94,53 @@ nav{
 
 .cont-us:hover{
     color: #fff !important;
+}
+
+.start{
+    margin-top: 150px;
+}
+
+.text-1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171 !important;
+}
+
+.text-2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    margin-top: 10px;
+}
+
+.text-3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+}
+
+.start-btn{
+    padding: 20px 60px !important;
+    color: #F3F3F3 !important;
+    margin-top: 30px;
+}
+
+.start-man-container{
+    position: relative;
+    min-height: 500px;
+}
+
+.start-man-container img{
+    position: absolute;
+}
+
+.start-man-container img:first-child{
+    z-index: 10000;
+    left: 30px;
+}
+
+.start-man-container img:nth-child(2){
+    top: 54px;
 }
