@@ -24,6 +24,7 @@
     line-height: 40px;
     color: #FFFFFF !important;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .title.dark{
@@ -145,13 +146,36 @@ nav{
     top: 54px;
 }
 
-.why-cards{
-
+.why-card{
+    width: 500px;
+    height: 336px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 64px 0;
+    margin: 20px;
+    transition: all ease .3s;
 }
 
-.why-card{
-    max-width: 485px;
-    height: 336px;
+.why-card:hover{
+    transition: all ease .3s;
+    cursor: pointer;
+    box-shadow: 0 0 30px 5px;
+}
+
+.why-card-title{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    margin-top: 32px;
+}
+
+.why-card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 11px auto 0;
+    width: 360px;
 }
 
 
