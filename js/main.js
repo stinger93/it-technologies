@@ -19,11 +19,11 @@ const HTMLheader=`
             </nav>
 
             <div class="lng">
-                <button type="button" class="btn nav-btn">EN</button>
+                <button type="button" class="btn nav-btn" data-lang="lang">EN</button>
             </div>
 
             <div class="cont">
-                <a href="" class="btn btn-outline-primary cont-us">Связаться с нами</a>
+                <a href="" class="btn btn-outline-primary cont-us" data-lang="contactUs">Связаться с нами</a>
             </div>
 
         </div>`
