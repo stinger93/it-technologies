@@ -144,3 +144,14 @@ nav{
 .start-man-container img:nth-child(2){
     top: 54px;
 }
+
+.why-cards{
+
+}
+
+.why-card{
+    max-width: 485px;
+    height: 336px;
+}
+
+
