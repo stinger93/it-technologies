@@ -13,13 +13,13 @@ const HTMLheader=`
             </div>
 
             <nav>
-                <a href="" class="btn nav-btn active">О нас</a>
-                <a href="" class="btn nav-btn">Услуги</a>
-                <a href="" class="btn nav-btn">Кейсы</a>
+                <a href="" class="btn nav-btn buttons active">О нас</a>
+                <a href="" class="btn nav-btn buttons">Услуги</a>
+                <a href="" class="btn nav-btn buttons">Кейсы</a>
             </nav>
 
             <div class="lng">
-                <button type="button" class="btn nav-btn" data-lang="lang">EN</button>
+                <button type="button" class="btn nav-btn buttons" data-lang="lang">EN</button>
             </div>
 
             <div class="cont">
