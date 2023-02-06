@@ -19,12 +19,22 @@
 
 /*header*/
 header{
-    height: 60px;
     padding: 22px 0;
 }
 
 .header-container{
     height: inherit;
+}
+
+li{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+li::marker{
+    color: var(--blue);
 }
 
 /* title */
