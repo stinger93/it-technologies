@@ -188,3 +188,56 @@ nav{
     width: 100%;
     margin: 0 auto 80px;
 }
+
+/*cases*/
+
+.case{
+    margin: 161px auto 0;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.case-title{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF !important;
+    margin-bottom: 21px;
+}
+
+.case-container{
+    display: flex;
+    align-items: center;
+}
+
+.case-card{
+    width: 510px;
+    min-height: 715px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 65px;
+}
+
+.case-card-list{
+    margin-bottom: 32px;
+}
+
+.case-card-list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.case-card-list.dash li{
+    list-style-image: url(/assets/img/cases/markers/dash.png)
+}
+
+.case-card-list.dot li{
+    list-style-image: url(/assets/img/cases/markers/dot.png)
+}
+
+.case-card-list.c-mark li{
+    list-style-image: url(/assets/img/cases/markers/c-mark.png)
+}
+
