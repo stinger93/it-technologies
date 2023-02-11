@@ -3,7 +3,7 @@ const data=[
         title:'Мобильное приложение',
         img:'assets/img/cases/Mobile.png',
         dashList:{
-            title:'Требования заказчика 1',
+            title:'Требования заказчика',
             items:[
                 {
                     li:'Обеспечить оперативный доступ руководителей к информации о производстве'
@@ -43,7 +43,7 @@ const data=[
         title:'Цифровой конвейер',
         img:'assets/img/cases/Digital.png',
         dashList:{
-            title:'Требования заказчика 2',
+            title:'Требования заказчика',
             items:[
                 {
                     li:'Сократить затраты на ремонт конвейера'
@@ -80,7 +80,7 @@ const data=[
         title:'Экзоскелеты',
         img:'assets/img/cases/Exoskeletons.png',
         dashList:{
-            title:'Требования заказчика 3',
+            title:'Требования заказчика',
             items:[
                 {
                     li:'Повысить производительность труда'

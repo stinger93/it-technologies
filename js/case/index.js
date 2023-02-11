@@ -39,8 +39,8 @@ for (let i = 0; i < data.length; i++) {
     </div>
 `
 
-    innerElements ('dot', "dashList", i)
-    innerElements ('dash', "dotList", i)
+    innerElements ('dash', "dashList", i)
+    innerElements ('dot', "dotList", i)
     innerElements ('c-mark', "cMarkList", i)
 }
 
