@@ -17,9 +17,9 @@ const HTMLheader=`
             </div>
 
             <nav>
-                <a href="/Внедрение%20it%20технологий/index.html" class="btn nav-btn buttons ${url === 'index.html' ? 'active' : ''}">О нас</a>
-                <a href="/Внедрение%20it%20технологий/service.html" class="btn nav-btn buttons ${url === 'service.html' ? 'active' : ''}">Услуги</a>
-                <a href="/Внедрение%20it%20технологий/case.html" class="btn nav-btn buttons ${url === 'case.html' ? 'active' : ''}">Кейсы</a>
+                <a href="/it-technologies/index.html" class="btn nav-btn buttons ${url === 'index.html' ? 'active' : ''}">О нас</a>
+                <a href="/it-technologies/service.html" class="btn nav-btn buttons ${url === 'service.html' ? 'active' : ''}">Услуги</a>
+                <a href="/it-technologies/case.html" class="btn nav-btn buttons ${url === 'case.html' ? 'active' : ''}">Кейсы</a>
             </nav>
 
             <div class="lng">
