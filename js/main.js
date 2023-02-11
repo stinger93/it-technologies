@@ -37,7 +37,7 @@ const  HTMLform=`
                         <div class="form-text-field">
                             <label for="inp1" class="form-title required">Имя</label>
                             <input id="inp1" type="text"
-                                   placeholder="Введите имя"
+                                   placeholder="Введите имя" required
                                    class="feedback-form-input form-input">
                         </div>
 
